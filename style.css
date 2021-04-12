@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.navbar{
+    background-color: rgb(18, 23, 184) !important;
+}
+
+.navbar-nav a {
+    color: rgb(184,179,18) !important;
+    font-weight: 700;
+    text-align: left;
+    transition: .3s;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: rgb(37, 43, 211);
+    color: aliceblue;
+    box-shadow: -3px 10px 10px rgb(146, 164, 224);
+}
