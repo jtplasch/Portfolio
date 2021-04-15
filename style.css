@@ -3,23 +3,171 @@ html {
 }
 
 body{
-    font-family: 'Source Code Pro', monospace;
+    font-family:'Teko', sans-serif;    
 }
 
-.navbar{
-    background-color: rgb(18, 23, 184) !important;
+
+
+/*--------navbar-------*/
+
+.navbar {
+    background-color: rgba(0, 29, 107, 0.95);    
 }
 
-.navbar-nav a {
-    color: rgb(184,179,18) !important;
-    font-weight: 700;
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-name {
+    color: rgb(121, 113, 13) !important;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+.navbar-nav li a {
+    color: rgb(121, 113, 13) !important;
+    font-weight: 600;
     text-align: left;
-    transition: .3s;
+    transition: .4s;
 }
+
+.navbar-nav li a:hover {
+    text-shadow: 0 0 10px rgb(172, 175, 3), 0 0 20px rgb(172, 175, 3);
+}
+
+/*------jumbotron-----*/
 
 .jumbotron {
     text-align: center;
-    background-color: rgb(37, 43, 211);
-    color: aliceblue;
-    box-shadow: -3px 10px 10px rgb(146, 164, 224);
+    background-image: radial-gradient(Navy, Black,  rgb(17, 71, 3) );    
+    color: rgb(121, 113, 13);
+    box-shadow: -3px 10px 10px rgb(66, 66, 66);
+    height: fit-content;
 }
+
+.jumbotron h1 {
+    font-size: 80px;
+}
+
+.jumbotron h4{
+    font-size: 45px;
+}
+
+/*------------------------about section-----------------------------------*/
+.section-title{
+    font-size: 80px;
+    text-decoration: underline;
+    
+}
+#about {
+    margin: 100px 0;
+    padding-top: 50px;
+    font-size: 20px;
+    background-image: url(C:\Users\jtpla\source\repos\Portfolio\assets\BusinessProfessional1.jpg);
+}
+
+#about-me-div {
+    text-align: right;    
+}
+
+#about-me-text {
+    font-weight: 200;
+    text-align: justify;
+}
+
+#profilepicture {
+    width: 300px;
+    height: 375px;
+    object-fit: cover;
+    box-shadow: 1px 10px 10px;
+}
+
+.skills {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 5px 5px;
+}
+
+.skills li {
+    padding-bottom: 10px;
+}
+
+.skill-list-title {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 10px 0 0 10px;
+}
+
+/*------contact--------*/
+
+#contact-title {
+    padding-top: 50px;
+}
+
+#form {
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.container{
+    text-align: center;
+}
+
+#Social-Title{
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icon {
+    font-size: 50px;
+    padding: 10px;
+    align-items: center;    
+}
+
+.social-icon:hover {
+    color: black;
+    position: relative;
+    top: -5px;
+}
+
+
+
+/*------------------------footer section-----------------------------------*/
+
+#footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 29, 107, 0.95);
+    color: blanchedalmond;
+}
+
